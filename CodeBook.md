@@ -6,16 +6,12 @@ I obtained the data from the course description.
 Link to data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 Link to Study Design: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-## Variables
+## Variables Subject and Activity
 
-"1" "subject"
+1 "subject" - ID of Person
 
-*ID of Person
-*1...30
+2 "activity" - Activities performed
 
-"2" "activity"
-
-*Activities performed
 *   1 WALKING
 *   2 WALKING_UPSTAIRS
 *   3 WALKING_DOWNSTAIRS
@@ -23,45 +19,83 @@ Link to Study Design: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Reco
 *   5 STANDING
 *   6 LAYING
 
-"3" "timeBodyAcc.mean.X"
-"4" "timeBodyAcc.mean.Y"
-"5" "timeBodyAcc.mean.Z"
-"6" "timeBodyAcc.std.X"
-"7" "timeBodyAcc.std.Y"
-"8" "timeBodyAcc.std.Z"
-"9" "timeGravityAcc.mean.X"
-"10" "timeGravityAcc.mean.Y"
-"11" "timeGravityAcc.mean.Z"
-"12" "timeGravityAcc.std.X"
-"13" "timeGravityAcc.std.Y"
-"14" "timeGravityAcc.std.Z"
+## Means
+
+* Mean of time of Body Acceleration in X,Y,Z direction
+3 "timeBodyAcc.mean.X" - 
+4 "timeBodyAcc.mean.Y"
+5 "timeBodyAcc.mean.Z"
+  
+* Std of time of Body Acceleration in X,Y,Z direction
+6 "timeBodyAcc.std.X"
+7 "timeBodyAcc.std.Y"
+8 "timeBodyAcc.std.Z"
+
+* Mean of time of Gravity Acceleration in X,Y,Z direction
+9 "timeGravityAcc.mean.X"
+10 "timeGravityAcc.mean.Y"
+11 "timeGravityAcc.mean.Z"
+
+* Std of time of Gravity Acceleration in X,Y,Z direction
+12 "timeGravityAcc.std.X"
+13 "timeGravityAcc.std.Y"
+14 "timeGravityAcc.std.Z"
+
+* Mean of time of Body Jerk Acceleration in X,Y,Z direction
 "15" "timeBodyAccJerk.mean.X"
 "16" "timeBodyAccJerk.mean.Y"
 "17" "timeBodyAccJerk.mean.Z"
+
+* Std of time of Body Jerk Acceleration in X,Y,Z direction
 "18" "timeBodyAccJerk.std.X"
 "19" "timeBodyAccJerk.std.Y"
 "20" "timeBodyAccJerk.std.Z"
+
+* Mean of time of Body Gyro in X,Y,Z direction
 "21" "timeBodyGyro.mean.X"
 "22" "timeBodyGyro.mean.Y"
 "23" "timeBodyGyro.mean.Z"
+
+* Std of time of Body Gyro in X,Y,Z direction
 "24" "timeBodyGyro.std.X"
 "25" "timeBodyGyro.std.Y"
 "26" "timeBodyGyro.std.Z"
+
+* Mean of time of Body Jerk Gyro in X,Y,Z direction
 "27" "timeBodyGyroJerk.mean.X"
 "28" "timeBodyGyroJerk.mean.Y"
 "29" "timeBodyGyroJerk.mean.Z"
+
+* Std of time of Body Jerk Gyro in X,Y,Z direction
 "30" "timeBodyGyroJerk.std.X"
 "31" "timeBodyGyroJerk.std.Y"
 "32" "timeBodyGyroJerk.std.Z"
+
+* Mean of time of Body Mag Acceleration
 "33" "timeBodyAccMag.mean"
+
+* Std of time of Body Mag Acceleration
 "34" "timeBodyAccMag.std"
+
+* Mean of time of Gravity Acceleration Mag
 "35" "timeGravityAccMag.mean"
+
+* Std of time of Gravity Acceleration Mag
 "36" "timeGravityAccMag.std"
+
+
+* Mean of time of Body Jerk Acceleration Mag
 "37" "timeBodyAccJerkMag.mean"
+
+* Std of time of Body Jerk Acceleration Mag
 "38" "timeBodyAccJerkMag.std"
+
+* Mean of time of Body Mag Gyro in X,Y,Z direction
 "39" "timeBodyGyroMag.mean"
 "40" "timeBodyGyroMag.std"
 "41" "timeBodyGyroJerkMag.mean"
+
+* Std of time of Body Mag Gyro in X,Y,Z direction
 "42" "timeBodyGyroJerkMag.std"
 "43" "freqBodyAcc.mean.X"
 "44" "freqBodyAcc.mean.Y"
