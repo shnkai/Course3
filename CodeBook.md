@@ -9,9 +9,12 @@ Link to Study Design: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Reco
 ## Variables
 
 "1" "subject"
+
 *ID of Person
 *1...30
+
 "2" "activity"
+
 *Activities performed
 *   1 WALKING
 *   2 WALKING_UPSTAIRS
