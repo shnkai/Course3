@@ -21,17 +21,17 @@ Link to Study Design: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Reco
 
 ## Means
 
-Mean of time of Body Acceleration in X,Y,Z direction</br>
+*Mean of time of Body Acceleration in X,Y,Z direction</br>
   3 "timeBodyAcc.mean.X" </br>
   4 "timeBodyAcc.mean.Y"</br>
   5 "timeBodyAcc.mean.Z"</br>
   
-* Std of time of Body Acceleration in X,Y,Z direction
-6 "timeBodyAcc.std.X"
-7 "timeBodyAcc.std.Y"
-8 "timeBodyAcc.std.Z"
+*Std of time of Body Acceleration in X,Y,Z direction</br>
+6 "timeBodyAcc.std.X"</br>
+7 "timeBodyAcc.std.Y"</br>
+8 "timeBodyAcc.std.Z"</br>
 
-* Mean of time of Gravity Acceleration in X,Y,Z direction
+*Mean of time of Gravity Acceleration in X,Y,Z direction
 9 "timeGravityAcc.mean.X"
 10 "timeGravityAcc.mean.Y"
 11 "timeGravityAcc.mean.Z"
