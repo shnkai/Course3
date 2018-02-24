@@ -89,4 +89,4 @@ names(merged_adj) <- var_final
 
 ##STEP 5. CREATE TABLE SET WITH AVERAGE OF EACH VARIABLE FOR EACH ACTIVITY AND SUBJECT
 tidy_data <- merged_adj %>% group_by(subject, activity) %>% summarize_all(mean)
-
+tidy_data
